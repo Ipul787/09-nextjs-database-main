@@ -38,3 +38,12 @@ Deployment Dashboard:
 
 ![Screenshot](assets/02.png)
 
+## Answer of Question No. 2
+
+In this practicum, we have learned about how to make a database on Vercel and connect it to our workspace. We could achieve this by using .env.local code snippet and paste it to our project directory. 
+
+Database Generated on Vercel: 
+
+![Screenshot](assets/03.png)
+
+![Screenshot](assets/04.png)
