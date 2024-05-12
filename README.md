@@ -47,3 +47,16 @@ Database Generated on Vercel:
 ![Screenshot](assets/03.png)
 
 ![Screenshot](assets/04.png)
+
+## Answer of Question No. 3
+
+In this practicum, we have learned about seeding the data into the configured database. During the seeding process, there are some errors encountered such as missing dotenv, bcrypt, and data.js modules. However, this could be resolved by installing the necessary modules and changing the directory of the data.js file in the seed.js file. 
+
+Initial output: 
+
+![Screenshot](assets/05.png)
+
+Final output after fixes: 
+
+![Screenshot](assets/06.png)
+
