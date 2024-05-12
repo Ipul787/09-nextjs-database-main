@@ -60,3 +60,10 @@ Final output after fixes:
 
 ![Screenshot](assets/06.png)
 
+## Answer of Question No. 4
+
+In this practicum, we learned to query on the database on vercel. We also create a query of our own. 
+
+![Screenshot](assets/07.png)
+
+![Screenshot](assets/08.png)
