@@ -67,3 +67,6 @@ In this practicum, we learned to query on the database on vercel. We also create
 ![Screenshot](assets/07.png)
 
 ![Screenshot](assets/08.png)
+
+## Answer of Question No. 5
+
