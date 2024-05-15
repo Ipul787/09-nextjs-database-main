@@ -70,3 +70,14 @@ In this practicum, we learned to query on the database on vercel. We also create
 
 ## Answer of Question No. 5
 
+In this practicum, we have learned about how to deploy our app from GitHub to Vercel. Before that, we have redesigned our app so that it will conform to the atomic web design to ensure modularity. 
+
+['Deployment link'](https://nextjs-dashboard-main-5efft2ad8.vercel.app/)
+
+Vercel Dashboard: 
+
+![Sreenshot](assets/09.png)
+
+Output: 
+
+![Screenshot](assets/10.png)
