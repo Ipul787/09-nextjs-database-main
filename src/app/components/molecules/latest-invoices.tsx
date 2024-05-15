@@ -2,7 +2,7 @@ import { ArrowPathIcon } from '@heroicons/react/24/outline';
 import clsx from 'clsx';
 import Image from 'next/image';
 import { lusitana } from '@/app/components/atoms/fonts';
-import { fetchLatestInvoices } from '@/model/query';
+import { fetchLatestInvoices } from '../../model/query';
 
 export default async function LatestInvoices() {
     const latestInvoices = await fetchLatestInvoices();
