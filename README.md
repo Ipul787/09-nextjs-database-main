@@ -93,3 +93,13 @@ In this practicum, we have visualized the data into the form of bar chart. The c
 In this practicum, we have learned about visualization of latest revenues in the form of lists. This practicum served as our practice to retrieve data from the database and display it to our website. 
 
 ![Screenshot](assets/12.png)
+
+## Practicum Questions
+
+1. Output: 
+
+![Screenshot](assets/13.png)
+
+2. The `fetchCardData()` is used to fetch data that are used in the cards displayed above the current revenue. In that code, there are multiple declarations that specifies the SQL query that is going to be executed. For example, the `invoiceCountPromise` is used to execute `SELECT COUNT(*) FROM invoices`, which will count all invoice data. The same also goes to `customerCountPromise`. The `invoiceStatusPromise` describes the sum of invoices that are paid and pending.
+
+After executing these commands, the program will then returns the data to the system and displays it in the card molecule. 
