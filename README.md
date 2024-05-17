@@ -87,3 +87,9 @@ Output:
 In this practicum, we have visualized the data into the form of bar chart. The chart is still not graphically pleasing, however it already served the purpose of data visualization. 
 
 ![Screenshot](assets/11.png)
+
+## Answer of Question No. 7
+
+In this practicum, we have learned about visualization of latest revenues in the form of lists. This practicum served as our practice to retrieve data from the database and display it to our website. 
+
+![Screenshot](assets/12.png)
