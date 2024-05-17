@@ -81,3 +81,9 @@ Vercel Dashboard:
 Output: 
 
 ![Screenshot](assets/10.png)
+
+## Answer of Question No. 6
+
+In this practicum, we have visualized the data into the form of bar chart. The chart is still not graphically pleasing, however it already served the purpose of data visualization. 
+
+![Screenshot](assets/11.png)
