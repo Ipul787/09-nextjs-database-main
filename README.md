@@ -20,7 +20,7 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Practicum Report
+## Practicum Report Week 8
 
 |  | Framework Based Programming 2024 |
 |--|--|
@@ -103,3 +103,18 @@ In this practicum, we have learned about visualization of latest revenues in the
 2. The `fetchCardData()` is used to fetch data that are used in the cards displayed above the current revenue. In that code, there are multiple declarations that specifies the SQL query that is going to be executed. For example, the `invoiceCountPromise` is used to execute `SELECT COUNT(*) FROM invoices`, which will count all invoice data. The same also goes to `customerCountPromise`. The `invoiceStatusPromise` describes the sum of invoices that are paid and pending.
 
 After executing these commands, the program will then returns the data to the system and displays it in the card molecule. 
+
+
+## Practicum Report Week 9
+
+## Answer of Question No. 1
+
+In this practicum, we have learned about how to make an authentication function in our Next.js application using login functionality. We also learned about how to secure our application using secret keys and middleware. 
+
+![Screenshot](assets/14.png)
+
+In this image, the user is directed to the main page directly. This is because the login page is not created yet. But when we routed the website to the login page, it returned the following image. 
+
+![Screenshot](assets/15.png)
+
+This error happened because we have not properly created the login page by importing a non-existent file, hence the error. 
