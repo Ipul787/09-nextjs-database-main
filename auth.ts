@@ -5,7 +5,17 @@ import { z } from 'zod';
 import { sql } from '@vercel/postgres';
 import type { User } from '@/app/model/definitions';
 
-const bcrypt = require('bcrypt');
+import bcrypt from 'bcrypt';
+
+export async function hashPassword(password: string): Promise<string> {
+    if (bcrypt) {
+      const salt = await bcrypt.genSalt(10);
+      const hash = await bcrypt.hash(password, salt);
+      return hash;
+    } else {
+      throw new Error('bcrypt can only be used on the server side');
+    }
+  }
 
 async function getUser(email:string): Promise<User | undefined> {
     try {

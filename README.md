@@ -118,3 +118,13 @@ In this image, the user is directed to the main page directly. This is because t
 ![Screenshot](assets/15.png)
 
 This error happened because we have not properly created the login page by importing a non-existent file, hence the error. 
+
+## Answer of Question No. 2
+
+Output: 
+
+![Screenshot](assets/16.png)
+
+Then
+
+![Screenshot](assets/17.png)
